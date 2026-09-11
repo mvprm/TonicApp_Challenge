@@ -1,0 +1,21 @@
+{
+  "mode": "authored_synthetic_replay_NOT_model_inference",
+  "model": null,
+  "prompt_version": "hcp-poc-v2",
+  "source_sha256": "c97a36b7a0608e596f02c7e079d46a388a796b13d5c63c8b04fb7876a05a84fb",
+  "language_detector": "lingua_low_accuracy; score>=0.70; margin>=0.20; min_words=4 (heuristic thresholds)",
+  "reference_version": "EMA-2026-09-12+ICD10-2019-subset+LOINC-2.83-poc-v2",
+  "reference_sha256": "c3b273a68006b52ac456dacde252c1fff3d9242ff48a4ce42b9d9376b6ccdce9",
+  "elapsed_seconds": 0.025,
+  "rows": 19,
+  "statuses": {
+    "invalid_input": 1,
+    "needs_review": 18
+  },
+  "entities": 21,
+  "known_input_tokens": 0,
+  "known_output_tokens": 0,
+  "clinical_accuracy": "not_evaluated",
+  "business_taxonomy": "not_provided",
+  "notes": "Processed means the technical workflow completed, not that interpretation is clinically correct. Unknown token usage is not zero usage."
+}

@@ -1,0 +1,19 @@
+{"chat_message_id": "synthetic-01", "country": "GB", "prompt": "No diabetes. Could this be asthma?"}
+{"chat_message_id": "synthetic-02", "country": "GB", "prompt": "Treatment for type 2 diabetes mellitus?"}
+{"chat_message_id": "synthetic-03", "country": "GB", "prompt": "Metformin 500 mg"}
+{"chat_message_id": "synthetic-04", "country": "GB", "prompt": "Ozempic dosing?"}
+{"chat_message_id": "synthetic-05", "country": "GB", "prompt": "Rybelsus versus Ozempic"}
+{"chat_message_id": "synthetic-06", "country": "PT", "prompt": "Doente sem febre."}
+{"chat_message_id": "synthetic-07", "country": "FR", "prompt": "fièvre et fatigue"}
+{"chat_message_id": "synthetic-08", "country": "PT", "prompt": "MS"}
+{"chat_message_id": "synthetic-09", "country": "PT", "prompt": "E a dose?"}
+{"chat_message_id": "synthetic-10", "country": "GB", "prompt": "Could this be astma?"}
+{"chat_message_id": "synthetic-11", "country": "GB", "prompt": "No asthma. History of asthma."}
+{"chat_message_id": "synthetic-12", "country": "GB", "prompt": ""}
+{"chat_message_id": "v2-13", "country": "PT", "prompt": "O doente tem antecedentes de apendicectomia na infância."}
+{"chat_message_id": "v2-14", "country": "ES", "prompt": "¿Cuándo se debe solicitar HbA1c en atención primaria?"}
+{"chat_message_id": "v2-15", "country": "FR", "prompt": "Le patient demande une IRM pour explorer ses symptômes."}
+{"chat_message_id": "v2-16", "country": "IT", "prompt": "Il paziente non ha mai subito una appendicectomia."}
+{"chat_message_id": "v2-17", "country": "PT", "prompt": "O doente tem asma grave."}
+{"chat_message_id": "v2-18", "country": "FR", "prompt": "Which specimen is required for Creatinine [Mass/volume] in Serum or Plasma?"}
+{"chat_message_id": "v2-19", "country": "IT", "prompt": "Which laboratory test should assess Creatinine in this patient?"}

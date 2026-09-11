@@ -1,0 +1,332 @@
+{
+  "No diabetes. Could this be asthma?": {
+    "entities": [
+      {
+        "text": "diabetes",
+        "type": "pathology",
+        "assertion": {
+          "polarity": "negated",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      },
+      {
+        "text": "asthma",
+        "type": "pathology",
+        "assertion": {
+          "polarity": "uncertain",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "Treatment for type 2 diabetes mellitus?": {
+    "entities": [
+      {
+        "text": "type 2 diabetes mellitus",
+        "type": "pathology",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "general_question"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "Metformin 500 mg": {
+    "entities": [
+      {
+        "text": "Metformin",
+        "type": "active_substance",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "Ozempic dosing?": {
+    "entities": [
+      {
+        "text": "Ozempic",
+        "type": "brand",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "general_question"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "Rybelsus versus Ozempic": {
+    "entities": [
+      {
+        "text": "Rybelsus",
+        "type": "brand",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      },
+      {
+        "text": "Ozempic",
+        "type": "brand",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "Doente sem febre.": {
+    "entities": [
+      {
+        "text": "febre",
+        "type": "symptom",
+        "assertion": {
+          "polarity": "negated",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "fièvre et fatigue": {
+    "entities": [
+      {
+        "text": "fièvre",
+        "type": "symptom",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      },
+      {
+        "text": "fatigue",
+        "type": "symptom",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "MS": {
+    "entities": [
+      {
+        "text": "MS",
+        "type": "pathology",
+        "assertion": {
+          "polarity": "uncertain",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "E a dose?": {
+    "entities": [],
+    "needs_context": true
+  },
+  "Could this be astma?": {
+    "entities": [
+      {
+        "text": "astma",
+        "type": "pathology",
+        "assertion": {
+          "polarity": "uncertain",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "No asthma. History of asthma.": {
+    "entities": [
+      {
+        "text": "asthma",
+        "type": "pathology",
+        "assertion": {
+          "polarity": "negated",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      },
+      {
+        "text": "asthma",
+        "type": "pathology",
+        "assertion": {
+          "polarity": "affirmed",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "unspecified"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "": {
+    "entities": [],
+    "needs_context": false
+  },
+  "O doente tem antecedentes de apendicectomia na infância.": {
+    "entities": [
+      {
+        "text": "apendicectomia",
+        "type": "procedure",
+        "assertion": {
+          "polarity": "affirmed",
+          "temporality": "historical",
+          "experiencer": "patient",
+          "context": "patient_specific"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "¿Cuándo se debe solicitar HbA1c en atención primaria?": {
+    "entities": [
+      {
+        "text": "HbA1c",
+        "type": "diagnostic_test",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "general_question"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "Le patient demande une IRM pour explorer ses symptômes.": {
+    "entities": [
+      {
+        "text": "IRM",
+        "type": "diagnostic_test",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "future",
+          "experiencer": "patient",
+          "context": "patient_specific"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "Il paziente non ha mai subito una appendicectomia.": {
+    "entities": [
+      {
+        "text": "appendicectomia",
+        "type": "procedure",
+        "assertion": {
+          "polarity": "negated",
+          "temporality": "historical",
+          "experiencer": "patient",
+          "context": "patient_specific"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "O doente tem asma grave.": {
+    "entities": [
+      {
+        "text": "asma",
+        "type": "pathology",
+        "assertion": {
+          "polarity": "affirmed",
+          "temporality": "current",
+          "experiencer": "patient",
+          "context": "patient_specific"
+        },
+        "modifiers": [
+          {
+            "type": "severity",
+            "text": "grave",
+            "value": "severe"
+          }
+        ]
+      }
+    ],
+    "needs_context": false
+  },
+  "Which specimen is required for Creatinine [Mass/volume] in Serum or Plasma?": {
+    "entities": [
+      {
+        "text": "Creatinine [Mass/volume] in Serum or Plasma",
+        "type": "diagnostic_test",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "general_question"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  },
+  "Which laboratory test should assess Creatinine in this patient?": {
+    "entities": [
+      {
+        "text": "Creatinine",
+        "type": "diagnostic_test",
+        "assertion": {
+          "polarity": "unspecified",
+          "temporality": "unspecified",
+          "experiencer": "unspecified",
+          "context": "general_question"
+        },
+        "modifiers": []
+      }
+    ],
+    "needs_context": false
+  }
+}
