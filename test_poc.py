@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import Mock, patch
-from poc import Extraction, load_reference, validate_and_link, process, export, ollama_extract, read_jsonl, ROOT
+from poc import Extraction, load_reference, validate_and_link, process, export, ollama_extract, read_jsonl, ROOT, OllamaExtractor
 
 
 class Tests(unittest.TestCase):
@@ -117,6 +117,26 @@ class Tests(unittest.TestCase):
         model = Mock()
         self.assertEqual(process({'prompt':'asthma'},1,self.index,model)['status'],'invalid_input')
         model.assert_not_called()
+
+    def test_ollama_adapter(self):
+        expected = (self.extract("asthma"), {"input_tokens": 5})
+
+        with patch("poc.ollama_extract", return_value=expected) as backend:
+            extractor = OllamaExtractor(
+                model="test-model",
+                endpoint="http://localhost:11434",
+                timeout=30,
+            )
+
+            result = extractor("asthma")
+
+        self.assertEqual(result, expected)
+        backend.assert_called_once_with(
+            "asthma",
+            "test-model",
+            "http://localhost:11434",
+            timeout=30,
+        )
 
 
 if __name__ == '__main__':
