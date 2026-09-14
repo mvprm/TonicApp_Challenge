@@ -205,14 +205,3 @@ The POC implements a limited end-to-end path through the proposed classification
 - **Batch scale:** results are accumulated in memory before export. The implementation is intended for sample-sized workloads.
 
 These boundaries keep the first implementation reviewable while preserving the proposed strategy's central principles: original-language evidence, separation of extraction from concept resolution, provenance and explicit uncertainty.
-
-## Terminology attribution
-
-This material contains content from LOINC (http://loinc.org).
-LOINC is copyright © Regenstrief Institute, Inc. and the Logical
-Observation Identifiers Names and Codes (LOINC) Committee and is
-available at no cost under the license at
-http://loinc.org/license. LOINC® is a registered United States
-trademark of Regenstrief Institute, Inc.
-
-The complete supplied licence is included in `LoincLicense_5.8.txt`. Source URLs and release metadata are retained in the reference catalogue.
