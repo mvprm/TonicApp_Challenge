@@ -384,13 +384,16 @@ def main():
         parser.error("Use a local HTTP or remote HTTPS endpoint without credentials/query parameters")
     source = ROOT / "examples/prompts.jsonl" if args.demo else args.input
     data, index, reference_hash = load_reference(args.references)
+    extractor: ClinicalExtractor
     if args.demo:
         fixtures = json.loads((ROOT / "examples/authored_responses.json").read_text(encoding="utf-8"))
-        def extractor(prompt):
-            return Extraction.model_validate(fixtures[prompt]), {}
-    else:
-        def extractor(prompt):
-            extractor = OllamaExtractor(args.model, args.endpoint)
+        def replay_extract(prompt: str) -> tuple[Extraction, dict]:
+                return Extraction.model_validate(fixtures[prompt]), {}
+    
+        extractor = replay_extract
+    else:        
+        extractor = OllamaExtractor(args.model, args.endpoint, timeout=180)
+
     started = time.perf_counter()
     language_detector()  # warm up the model and cache
     results = [process(row, number, index, extractor) for number, row in read_jsonl(source)]
